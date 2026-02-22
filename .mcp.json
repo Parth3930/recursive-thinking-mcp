@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "recursive-thinking": {
+      "command": "recursive-thinking-mcp"
+    }
+  }
+}

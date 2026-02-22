@@ -1,0 +1,71 @@
+{
+  "name": "recursive-thinking-mcp",
+  "version": "1.0.0",
+  "description": "Token-efficient recursive thinking MCP server for AI agents. Achieve production-ready solutions through iterative refinement with 70% token reduction. Perfect for Claude, AI problem-solving, and complex task automation.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "recursive-thinking-mcp": "dist/index.js"
+  },
+  "mcpName": "recursive-thinking-mcp",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node && shx chmod +x dist/index.js",
+    "dev": "bun build src/index.ts --outdir dist --target node --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "recursive-thinking",
+    "ai",
+    "claude",
+    "anthropic",
+    "problem-solving",
+    "token-efficient",
+    "iterative-refinement",
+    "production-ready",
+    "automation",
+    "mcp-server",
+    "ai-agent",
+    "thinking-engine",
+    "problem-solving",
+    "task-automation",
+    "llm",
+    "large-language-model",
+    "ai-tools",
+    "claude-desktop",
+    "claude-code",
+    "vscode-mcp",
+    "token-optimization",
+    "context-compression",
+    "ai-assistant",
+    "workflow-automation"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "shx": "^0.4.0",
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parth3930/recursive-thinking-mcp.git"
+  },
+  "author": "Parth3930",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/Parth3930/recursive-thinking-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/Parth3930/recursive-thinking-mcp/issues"
+  }
+}
