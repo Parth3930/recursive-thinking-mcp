@@ -1,6 +1,6 @@
 {
   "name": "recursive-thinking-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Token-efficient recursive thinking MCP server for AI agents. Achieve production-ready solutions through iterative refinement with 70% token reduction. Perfect for Claude, AI problem-solving, and complex task automation.",
   "type": "module",
   "main": "dist/index.js",
